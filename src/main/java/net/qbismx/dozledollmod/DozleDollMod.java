@@ -1,5 +1,8 @@
 package net.qbismx.dozledollmod;
 
+import net.qbismx.dozledollmod.block.ModBlocks;
+import net.qbismx.dozledollmod.item.ModCreativeModeTabs;
+import net.qbismx.dozledollmod.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -31,6 +34,14 @@ public class DozleDollMod {
     public DozleDollMod(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+
+        // Modのアイテム全体の登録
+        ModItems.register(modEventBus);
+        // Modのブロック全体の登録
+        ModBlocks.register(modEventBus);
+        // Modのクリエイティブモードタブの登録
+        ModCreativeModeTabs.register(modEventBus);
 
 
         // Register ourselves for server and other game events we are interested in.

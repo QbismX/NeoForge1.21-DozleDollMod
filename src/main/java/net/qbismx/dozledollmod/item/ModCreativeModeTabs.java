@@ -9,6 +9,9 @@ import net.minecraft.world.item.Items;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.qbismx.dozledollmod.DozleDollMod;
+import net.qbismx.dozledollmod.block.ModBlocks;
+import net.qbismx.dozledollmod.block.dolls.BonjourDolls;
+import net.qbismx.dozledollmod.block.dolls.DozleDolls;
 
 import java.util.function.Supplier;
 
@@ -22,7 +25,7 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(Items.REDSTONE_BLOCK))
                     .title(Component.translatable("creativemodetab.dozledollmod.dozle_dolls"))
                     .displayItems((params, output) -> {
-                        output.accept(Items.REDSTONE_BLOCK);
+                        output.accept(DozleDolls.DOZLE_NORMAL_BLOCK);
                     })
                     .build());
 
@@ -32,7 +35,7 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(DozleDollMod.MODID, "dozle_dolls_tab"))
                     .title(Component.translatable("creativemodetab.dozledollmod.bonjour_dolls"))
                     .displayItems((params, output) -> {
-                        output.accept(Items.REDSTONE_BLOCK);
+                        output.accept(BonjourDolls.BONJOUR_NORMAL_BLOCK);
                     })
                     .build());
 
