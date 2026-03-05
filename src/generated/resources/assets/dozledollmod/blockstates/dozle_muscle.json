@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "dozledollmod:block/dozle_muscle",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "dozledollmod:block/dozle_muscle",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "dozledollmod:block/dozle_muscle"
+    },
+    "facing=west": {
+      "model": "dozledollmod:block/dozle_muscle",
+      "y": 90
+    }
+  }
+}

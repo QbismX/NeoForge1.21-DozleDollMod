@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "dozledollmod:block/bonjour_rpg",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "dozledollmod:block/bonjour_rpg",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "dozledollmod:block/bonjour_rpg"
+    },
+    "facing=west": {
+      "model": "dozledollmod:block/bonjour_rpg",
+      "y": 90
+    }
+  }
+}

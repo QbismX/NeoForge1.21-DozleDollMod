@@ -1,0 +1,17 @@
+{
+  "parent": "dozledollmod:block/bonjour_student",
+  "display": {
+    "fixed": {
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        -8
+      ]
+    }
+  }
+}
