@@ -35,13 +35,18 @@ public class DozleDollMod {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
-
         // Modのアイテム全体の登録
         ModItems.register(modEventBus);
         // Modのブロック全体の登録
         ModBlocks.register(modEventBus);
         // Modのクリエイティブモードタブの登録
         ModCreativeModeTabs.register(modEventBus);
+
+        /*
+        // itemやblockの登録の下
+        // ルートテーブルの改変の登録
+        ModLootModifiers.register(modEventBus);
+         */
 
 
         // Register ourselves for server and other game events we are interested in.

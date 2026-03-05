@@ -10,6 +10,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.qbismx.dozledollmod.DozleDollMod;
+import net.qbismx.dozledollmod.block.custom.DollMainBlock;
 import net.qbismx.dozledollmod.block.custom.DollUpperBlock;
 import net.qbismx.dozledollmod.item.ModItems;
 
@@ -27,12 +28,24 @@ public class ModBlocks {
                     .lightLevel(x -> 15)
                     .noOcclusion();
 
-    // 共通の上半身部分をここで登録する。他はそれぞれスキンの所有者別で登録する。
+    // 共通の上半身部分をここで登録する。
     public static final DeferredBlock<DollUpperBlock> DOLL_UPPER_BLOCK = registerBlock("doll_upper",
             ()-> new DollUpperBlock(PROPERTIES));
 
 
-    //　ブロック登録用のメソッド
+    // ドズルさん --------------------------------------------------------------------------------------------------------
+    public static final DeferredBlock<DollMainBlock> DOZLE_NORMAL_BLOCK = ModBlocks.registerBlock("dozle_normal",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+
+
+    //　ぼんじゅうるさん -------------------------------------------------------------------------------------------------
+    public static final DeferredBlock<DollMainBlock> BONJOUR_NORMAL_BLOCK = ModBlocks.registerBlock("bonjour_normal",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+
+
+
+
+    //　ブロック登録用のメソッド ===========================================================================================
     public static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

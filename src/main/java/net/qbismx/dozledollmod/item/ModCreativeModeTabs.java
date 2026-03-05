@@ -10,8 +10,6 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.qbismx.dozledollmod.DozleDollMod;
 import net.qbismx.dozledollmod.block.ModBlocks;
-import net.qbismx.dozledollmod.block.dolls.BonjourDolls;
-import net.qbismx.dozledollmod.block.dolls.DozleDolls;
 
 import java.util.function.Supplier;
 
@@ -22,20 +20,20 @@ public class ModCreativeModeTabs {
 
     // ドズルさんのフィギュアのクリエイティブモードタブ
     public static final Supplier<CreativeModeTab> DOZELE_DOLLS_TAB = CREATIVE_MODE_TAB.register("dozle_dolls_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(Items.REDSTONE_BLOCK))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.DOZLE_NORMAL_BLOCK))
                     .title(Component.translatable("creativemodetab.dozledollmod.dozle_dolls"))
                     .displayItems((params, output) -> {
-                        output.accept(DozleDolls.DOZLE_NORMAL_BLOCK);
+                        output.accept(ModBlocks.DOZLE_NORMAL_BLOCK);
                     })
                     .build());
 
     // ぼんじゅうるさんのフィギュアのクリエイティブモードタブ
     public static final Supplier<CreativeModeTab> BONJOUR_DOLLS_TAB = CREATIVE_MODE_TAB.register("bonjour_dolls_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(Items.REDSTONE_BLOCK))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.BONJOUR_NORMAL_BLOCK))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(DozleDollMod.MODID, "dozle_dolls_tab"))
                     .title(Component.translatable("creativemodetab.dozledollmod.bonjour_dolls"))
                     .displayItems((params, output) -> {
-                        output.accept(BonjourDolls.BONJOUR_NORMAL_BLOCK);
+                        output.accept(ModBlocks.BONJOUR_NORMAL_BLOCK);
                     })
                     .build());
 
