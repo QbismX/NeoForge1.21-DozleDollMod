@@ -24,6 +24,15 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativemodetab.dozledollmod.dozle_dolls"))
                     .displayItems((params, output) -> {
                         output.accept(ModBlocks.DOZLE_NORMAL_BLOCK);
+                        output.accept(ModBlocks.DOZLE_COLD_BLOCK);
+                        output.accept(ModBlocks.DOZLE_GIRL_BLOCK);
+                        output.accept(ModBlocks.DOZLE_GORILLA_BLOCK);
+                        output.accept(ModBlocks.DOZLE_KAMI_BLOCK);
+                        output.accept(ModBlocks.DOZLE_MUSCLE_BLOCK);
+                        output.accept(ModBlocks.DOZLE_STUDENT_BLOCK);
+                        output.accept(ModBlocks.DOZLE_SUIT_BLOCK);
+                        output.accept(ModBlocks.DOZLE_WILD_BLOCK);
+                        output.accept(ModBlocks.DOZLE_JAPAN_BLOCK);
                     })
                     .build());
 
@@ -34,6 +43,13 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativemodetab.dozledollmod.bonjour_dolls"))
                     .displayItems((params, output) -> {
                         output.accept(ModBlocks.BONJOUR_NORMAL_BLOCK);
+                        output.accept(ModBlocks.BONJOUR_HOIKU_BLOCK);
+                        output.accept(ModBlocks.BONJOUR_JAPAN_BLOCK);
+                        output.accept(ModBlocks.BONJOUR_MOMOTARO_BLOCK);
+                        output.accept(ModBlocks.BONJOUR_RPG_BLOCK);
+                        output.accept(ModBlocks.BONJOUR_STUDENT_BLOCK);
+                        output.accept(ModBlocks.BONJOUR_SUIT_BLOCK);
+                        output.accept(ModBlocks.BONJOUR_TANTEI_BLOCK);
                     })
                     .build());
 

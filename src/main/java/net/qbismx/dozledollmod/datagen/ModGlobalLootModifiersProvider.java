@@ -28,7 +28,7 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
         // 自動作業台からドズル(ノーマル)をドロップさせる
         add("dozle_normal_from_crafter", new AddItemModifier(new LootItemCondition[]{
                 LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.CRAFTER).build(),
-                LootItemRandomChanceCondition.randomChance(0.75f).build()
+                LootItemRandomChanceCondition.randomChance(1.0f).build()
         }, ModBlocks.DOZLE_NORMAL_BLOCK.asItem()));
 
         // 乾燥した昆布ブロックからぼんじゅうる(ノーマル)をドロップさせる
@@ -53,7 +53,7 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
         // ブタからおおはらMEN(ノーマル)をドロップさせる
         add("ooharamen_normal_from_pig", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/pig")).build(),
-                LootItemRandomChanceCondition.randomChance(0.75f).build()
+                LootItemRandomChanceCondition.randomChance(1.0f).build()
         }, ModBlocks.OOHARAMEN_NORMAL_BLOCK.asItem()));
 
         // 村のチェストからねこおじ(ノーマル)をドロップさせる

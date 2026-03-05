@@ -33,14 +33,46 @@ public class ModBlocks {
             ()-> new DollUpperBlock(PROPERTIES));
 
 
-    // ドズルさん --------------------------------------------------------------------------------------------------------
+    // ドズルさん (Dooozle)--------------------------------------------------------------------------------------------------------
     public static final DeferredBlock<DollMainBlock> DOZLE_NORMAL_BLOCK = ModBlocks.registerBlock("dozle_normal",
             ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+    public static final DeferredBlock<DollMainBlock> DOZLE_COLD_BLOCK = ModBlocks.registerBlock("dozle_cold",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+    public static final DeferredBlock<DollMainBlock> DOZLE_GIRL_BLOCK = ModBlocks.registerBlock("dozle_girl",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+    public static final DeferredBlock<DollMainBlock> DOZLE_GORILLA_BLOCK = ModBlocks.registerBlock("dozle_gorilla",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+    public static final DeferredBlock<DollMainBlock> DOZLE_KAMI_BLOCK = ModBlocks.registerBlock("dozle_kami",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+    public static final DeferredBlock<DollMainBlock> DOZLE_MUSCLE_BLOCK = ModBlocks.registerBlock("dozle_muscle",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+    public static final DeferredBlock<DollMainBlock> DOZLE_STUDENT_BLOCK = ModBlocks.registerBlock("dozle_student",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+    public static final DeferredBlock<DollMainBlock> DOZLE_SUIT_BLOCK = ModBlocks.registerBlock("dozle_suit",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+    public static final DeferredBlock<DollMainBlock> DOZLE_WILD_BLOCK = ModBlocks.registerBlock("dozle_wild",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+    public static final DeferredBlock<DollMainBlock> DOZLE_JAPAN_BLOCK = ModBlocks.registerBlock("dozle_japan",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
 
-
-    //　ぼんじゅうるさん -------------------------------------------------------------------------------------------------
+    //　ぼんじゅうるさん (bonj55)-------------------------------------------------------------------------------------------------
     public static final DeferredBlock<DollMainBlock> BONJOUR_NORMAL_BLOCK = ModBlocks.registerBlock("bonjour_normal",
             ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+    public static final DeferredBlock<DollMainBlock> BONJOUR_HOIKU_BLOCK = ModBlocks.registerBlock("bonjour_hoiku",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+    public static final DeferredBlock<DollMainBlock> BONJOUR_JAPAN_BLOCK = ModBlocks.registerBlock("bonjour_japan",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+    public static final DeferredBlock<DollMainBlock> BONJOUR_MOMOTARO_BLOCK = ModBlocks.registerBlock("bonjour_momotaro",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+    public static final DeferredBlock<DollMainBlock> BONJOUR_RPG_BLOCK = ModBlocks.registerBlock("bonjour_rpg",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+    public static final DeferredBlock<DollMainBlock> BONJOUR_STUDENT_BLOCK = ModBlocks.registerBlock("bonjour_student",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+    public static final DeferredBlock<DollMainBlock> BONJOUR_SUIT_BLOCK = ModBlocks.registerBlock("bonjour_suit",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+    public static final DeferredBlock<DollMainBlock> BONJOUR_TANTEI_BLOCK = ModBlocks.registerBlock("bonjour_tantei",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+
 
     //　おんりーさん -------------------------------------------------------------------------------------------------
     public static final DeferredBlock<DollMainBlock> QNLY_NORMAL_BLOCK = ModBlocks.registerBlock("qnly_normal",
@@ -54,7 +86,7 @@ public class ModBlocks {
     public static final DeferredBlock<DollMainBlock> OOHARAMEN_NORMAL_BLOCK = ModBlocks.registerBlock("ooharamen_normal",
             ()-> new DollMainBlock(ModBlocks.PROPERTIES));
 
-    //　ねこおじさん -------------------------------------------------------------------------------------------------
+    //　ねこおじさん(Neko_Oji) -------------------------------------------------------------------------------------------------
     public static final DeferredBlock<DollMainBlock> NEKOOJI_NORMAL_BLOCK = ModBlocks.registerBlock("nekooji_normal",
             ()-> new DollMainBlock(ModBlocks.PROPERTIES));
 
