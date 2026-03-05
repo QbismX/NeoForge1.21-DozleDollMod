@@ -1,0 +1,7 @@
+{
+  "parent": "dozledollmod:block/doll",
+  "textures": {
+    "particle": "dozledollmod:block/bonjour/bonjour",
+    "skin": "dozledollmod:block/bonjour/bonjour"
+  }
+}
