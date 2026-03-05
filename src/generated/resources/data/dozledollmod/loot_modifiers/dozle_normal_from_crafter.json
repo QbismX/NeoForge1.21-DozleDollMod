@@ -1,0 +1,14 @@
+{
+  "type": "dozledollmod:add_item",
+  "conditions": [
+    {
+      "block": "minecraft:crafter",
+      "condition": "minecraft:block_state_property"
+    },
+    {
+      "chance": 0.75,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "dozledollmod:dozle_normal"
+}

@@ -1,6 +1,7 @@
 package net.qbismx.dozledollmod;
 
 import net.qbismx.dozledollmod.block.ModBlocks;
+import net.qbismx.dozledollmod.datagen.loot.ModLootModifiers;
 import net.qbismx.dozledollmod.item.ModCreativeModeTabs;
 import net.qbismx.dozledollmod.item.ModItems;
 import org.slf4j.Logger;
@@ -41,6 +42,9 @@ public class DozleDollMod {
         ModBlocks.register(modEventBus);
         // Modのクリエイティブモードタブの登録
         ModCreativeModeTabs.register(modEventBus);
+
+        // LootModifier
+        ModLootModifiers.LOOT_MODIFIER_SERIALIZERS.register(modEventBus);
 
         /*
         // itemやblockの登録の下

@@ -3,8 +3,12 @@
   "creativemodetab.dozledollmod.bonjour_dolls": "Bonjour Figure",
   "creativemodetab.dozledollmod.qnly_dolls": "Qnly Figure",
   "creativemodetab.dozledollmod.orafkun_dolls": "Oraf-kun Figure",
-  "creativemodetab.dozledollmod.ooharamen_dolls": "OOHARA MEN Figure",
+  "creativemodetab.dozledollmod.ooharamen_dolls": "Oohara MEN Figure",
   "creativemodetab.dozledollmod.nekooji_dolls": "Neko-Oji Figure",
   "block.dozledollmod.dozle_normal": "Dozle (Normal)",
-  "block.dozledollmod.bonjour_normal": "Bonjour (Normal)"
+  "block.dozledollmod.bonjour_normal": "Bonjour (Normal)",
+  "block.dozledollmod.qnly_normal": "Qnly (Normal)",
+  "block.dozledollmod.orafkun_normal": "Oraf-kun (Normal)",
+  "block.dozledollmod.ooharamen_normal": "Oohara MEN (Normal)",
+  "block.dozledollmod.nekooji_normal": "Neko-Oji (Normal)"
 }

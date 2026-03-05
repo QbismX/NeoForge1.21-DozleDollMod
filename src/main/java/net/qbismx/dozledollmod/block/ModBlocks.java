@@ -42,6 +42,22 @@ public class ModBlocks {
     public static final DeferredBlock<DollMainBlock> BONJOUR_NORMAL_BLOCK = ModBlocks.registerBlock("bonjour_normal",
             ()-> new DollMainBlock(ModBlocks.PROPERTIES));
 
+    //　おんりーさん -------------------------------------------------------------------------------------------------
+    public static final DeferredBlock<DollMainBlock> QNLY_NORMAL_BLOCK = ModBlocks.registerBlock("qnly_normal",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+
+    //　おらふくん -------------------------------------------------------------------------------------------------
+    public static final DeferredBlock<DollMainBlock> ORAFKUN_NORMAL_BLOCK = ModBlocks.registerBlock("orafkun_normal",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+
+    //　おおはらMENさん -------------------------------------------------------------------------------------------------
+    public static final DeferredBlock<DollMainBlock> OOHARAMEN_NORMAL_BLOCK = ModBlocks.registerBlock("ooharamen_normal",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+
+    //　ねこおじさん -------------------------------------------------------------------------------------------------
+    public static final DeferredBlock<DollMainBlock> NEKOOJI_NORMAL_BLOCK = ModBlocks.registerBlock("nekooji_normal",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+
 
 
 

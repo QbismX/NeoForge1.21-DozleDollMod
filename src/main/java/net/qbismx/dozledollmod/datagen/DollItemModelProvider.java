@@ -16,6 +16,10 @@ public class DollItemModelProvider extends ItemModelProvider {
 
         dollItem("dozle_normal");
         dollItem("bonjour_normal");
+        dollItem("qnly_normal");
+        dollItem("orafkun_normal");
+        dollItem("ooharamen_normal");
+        dollItem("nekooji_normal");
 
     }
 

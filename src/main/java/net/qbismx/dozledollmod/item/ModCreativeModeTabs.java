@@ -39,11 +39,11 @@ public class ModCreativeModeTabs {
 
     // おんりーさんのフィギュアのクリエイティブモードタブ
     public static final Supplier<CreativeModeTab> QNLY_DOLLS_TAB = CREATIVE_MODE_TAB.register("qnly_dolls_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(Items.REDSTONE_BLOCK))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.QNLY_NORMAL_BLOCK))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(DozleDollMod.MODID, "bonjour_dolls_tab"))
                     .title(Component.translatable("creativemodetab.dozledollmod.qnly_dolls"))
                     .displayItems((params, output) -> {
-                        output.accept(Items.REDSTONE_BLOCK);
+                        output.accept(ModBlocks.QNLY_NORMAL_BLOCK);
                     })
                     .build());
 
@@ -51,31 +51,31 @@ public class ModCreativeModeTabs {
 
     // おらふくんのフィギュアのクリエイティブモードタブ
     public static final Supplier<CreativeModeTab> ORAFKUN_DOLLS_TAB = CREATIVE_MODE_TAB.register("orafkun_dolls_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(Items.REDSTONE_BLOCK))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ORAFKUN_NORMAL_BLOCK))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(DozleDollMod.MODID, "qnly_dolls_tab"))
                     .title(Component.translatable("creativemodetab.dozledollmod.orafkun_dolls"))
                     .displayItems((params, output) -> {
-                        output.accept(Items.REDSTONE_BLOCK);
+                        output.accept(ModBlocks.ORAFKUN_NORMAL_BLOCK);
                     })
                     .build());
 
     // おおはらMENさんのフィギュアのクリエイティブモードタブ
     public static final Supplier<CreativeModeTab> OOHARAMEN_DOLLS_TAB = CREATIVE_MODE_TAB.register("ooharamen_dolls_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(Items.REDSTONE_BLOCK))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.OOHARAMEN_NORMAL_BLOCK))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(DozleDollMod.MODID, "orafkun_dolls_tab"))
                     .title(Component.translatable("creativemodetab.dozledollmod.ooharamen_dolls"))
                     .displayItems((params, output) -> {
-                        output.accept(Items.REDSTONE_BLOCK);
+                        output.accept(ModBlocks.OOHARAMEN_NORMAL_BLOCK);
                     })
                     .build());
 
     // ねこおじさんのフィギュアのクリエイティブモードタブ
     public static final Supplier<CreativeModeTab> NEKOOJI_DOLLS_TAB = CREATIVE_MODE_TAB.register("nekooji_dolls_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(Items.REDSTONE_BLOCK))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.NEKOOJI_NORMAL_BLOCK))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(DozleDollMod.MODID, "ooharamen_dolls_tab"))
                     .title(Component.translatable("creativemodetab.dozledollmod.nekooji_dolls"))
                     .displayItems((params, output) -> {
-                        output.accept(Items.REDSTONE_BLOCK);
+                        output.accept(ModBlocks.NEKOOJI_NORMAL_BLOCK);
                     })
                     .build());
 

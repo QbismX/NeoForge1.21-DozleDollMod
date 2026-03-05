@@ -25,5 +25,10 @@ public class DataGenerators {
             generator.addProvider(true, new DollItemModelProvider(packOutput, DozleDollMod.MODID, existingFileHelper));
         }
 
+        if (event.includeServer()) {
+           generator.addProvider(true, new ModGlobalLootModifiersProvider(packOutput, lookupProvider));
+           generator.addProvider(true, new ModLootTableProvider(packOutput, lookupProvider));
+        }
+
     }
 }

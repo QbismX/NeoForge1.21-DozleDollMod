@@ -4,7 +4,7 @@
   "texture_size": [64, 64],
   "textures": {
     "skin": "dozledollmod:block/dozle/dozle",
-    "particle": "dozledollmod:block/dozle/dozle"
+    "particle": "minecraft:block/black_concrete"
   },
   "elements": [
     {
