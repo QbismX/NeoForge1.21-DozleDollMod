@@ -1,0 +1,6 @@
+{
+  "parent": "dozledollmod:block/doll",
+  "textures": {
+    "skin": "dozledollmod:block/nekooji/nekooji_deka"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "dozledollmod:block/orafkun_ojosama",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "dozledollmod:block/orafkun_ojosama",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "dozledollmod:block/orafkun_ojosama"
+    },
+    "facing=west": {
+      "model": "dozledollmod:block/orafkun_ojosama",
+      "y": 90
+    }
+  }
+}

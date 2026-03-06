@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "dozledollmod:block/nekooji_rich",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "dozledollmod:block/nekooji_rich",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "dozledollmod:block/nekooji_rich"
+    },
+    "facing=west": {
+      "model": "dozledollmod:block/nekooji_rich",
+      "y": 90
+    }
+  }
+}

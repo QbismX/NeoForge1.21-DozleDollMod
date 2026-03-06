@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "dozledollmod:block/qnly_santa",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "dozledollmod:block/qnly_santa",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "dozledollmod:block/qnly_santa"
+    },
+    "facing=west": {
+      "model": "dozledollmod:block/qnly_santa",
+      "y": 90
+    }
+  }
+}

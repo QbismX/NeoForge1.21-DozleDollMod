@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "dozledollmod:block/ooharamen_previous",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "dozledollmod:block/ooharamen_previous",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "dozledollmod:block/ooharamen_previous"
+    },
+    "facing=west": {
+      "model": "dozledollmod:block/ooharamen_previous",
+      "y": 90
+    }
+  }
+}

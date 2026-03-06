@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "dozledollmod:block/qnly_bonjour",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "dozledollmod:block/qnly_bonjour",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "dozledollmod:block/qnly_bonjour"
+    },
+    "facing=west": {
+      "model": "dozledollmod:block/qnly_bonjour",
+      "y": 90
+    }
+  }
+}
