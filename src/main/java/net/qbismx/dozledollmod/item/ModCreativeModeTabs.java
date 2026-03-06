@@ -5,7 +5,6 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.qbismx.dozledollmod.DozleDollMod;
@@ -50,6 +49,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BONJOUR_STUDENT_BLOCK);
                         output.accept(ModBlocks.BONJOUR_SUIT_BLOCK);
                         output.accept(ModBlocks.BONJOUR_TANTEI_BLOCK);
+                        output.accept(ModBlocks.BONJOUR_HALLOWEEN_BLOCK);
+                        output.accept(ModBlocks.BONJOUR_OJOSAMA_BLOCK);
                     })
                     .build());
 
@@ -60,6 +61,15 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativemodetab.dozledollmod.qnly_dolls"))
                     .displayItems((params, output) -> {
                         output.accept(ModBlocks.QNLY_NORMAL_BLOCK);
+                        output.accept(ModBlocks.QNLY_BONJOUR_BLOCK);
+                        output.accept(ModBlocks.QNLY_GUARD_BLOCK);
+                        output.accept(ModBlocks.QNLY_JAPAN_BLOCK);
+                        output.accept(ModBlocks.QNLY_OJOSAMA_BLOCK);
+                        output.accept(ModBlocks.QNLY_RPG_BLOCK);
+                        output.accept(ModBlocks.QNLY_PREVIOUS_BLOCK);
+                        output.accept(ModBlocks.QNLY_SANTA_BLOCK);
+                        output.accept(ModBlocks.QNLY_SUIT_BLOCK);
+                        output.accept(ModBlocks.QNLY_STUDENT_BLOCK);
                     })
                     .build());
 
@@ -72,6 +82,15 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativemodetab.dozledollmod.orafkun_dolls"))
                     .displayItems((params, output) -> {
                         output.accept(ModBlocks.ORAFKUN_NORMAL_BLOCK);
+                        output.accept(ModBlocks.ORAFKUN_JAPAN_BLOCK);
+                        output.accept(ModBlocks.ORAFKUN_OJOSAMA_BLOCK);
+                        output.accept(ModBlocks.ORAFKUN_ORAKOCHAN_BLOCK);
+                        output.accept(ModBlocks.ORAFKUN_ORAKOHIME_BLOCK);
+                        output.accept(ModBlocks.ORAFKUN_ORALISH_BLOCK);
+                        output.accept(ModBlocks.ORAFKUN_SAMURAI_BLOCK);
+                        output.accept(ModBlocks.ORAFKUN_STUDENT_BLOCK);
+                        output.accept(ModBlocks.ORAFKUN_TOY_BLOCK);
+                        output.accept(ModBlocks.ORAFKUN_SUIT_BLOCK);
                     })
                     .build());
 
@@ -82,6 +101,15 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativemodetab.dozledollmod.ooharamen_dolls"))
                     .displayItems((params, output) -> {
                         output.accept(ModBlocks.OOHARAMEN_NORMAL_BLOCK);
+                        output.accept(ModBlocks.OOHARAMEN_DEKA_BLOCK);
+                        output.accept(ModBlocks.OOHARAMEN_GIRL_BLOCK);
+                        output.accept(ModBlocks.OOHARAMEN_OJOSAMA_BLOCK);
+                        output.accept(ModBlocks.OOHARAMEN_PIGLIN_BLOCK);
+                        output.accept(ModBlocks.OOHARAMEN_OLD_BLOCK);
+                        output.accept(ModBlocks.OOHARAMEN_PREVIOUS_BLOCK);
+                        output.accept(ModBlocks.OOHARAMEN_STUDENT_BLOCK);
+                        output.accept(ModBlocks.OOHARAMEN_TNT_BLOCK);
+                        output.accept(ModBlocks.OOHARAMEN_ZURU_BLOCK);
                     })
                     .build());
 
@@ -92,6 +120,12 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativemodetab.dozledollmod.nekooji_dolls"))
                     .displayItems((params, output) -> {
                         output.accept(ModBlocks.NEKOOJI_NORMAL_BLOCK);
+                        output.accept(ModBlocks.NEKOOJI_DEKA_BLOCK);
+                        output.accept(ModBlocks.NEKOOJI_DOCTOR_BLOCK);
+                        output.accept(ModBlocks.NEKOOJI_OLD_BLOCK);
+                        output.accept(ModBlocks.NEKOOJI_RICH_BLOCK);
+                        output.accept(ModBlocks.NEKOOJI_SUIT_BLOCK);
+                        output.accept(ModBlocks.NEKOOJI_TONO_BLOCK);
                     })
                     .build());
 

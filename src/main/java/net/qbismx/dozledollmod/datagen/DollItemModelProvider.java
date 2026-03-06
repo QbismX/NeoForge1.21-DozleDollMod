@@ -33,11 +33,49 @@ public class DollItemModelProvider extends ItemModelProvider {
         dollItem("bonjour_student");
         dollItem("bonjour_suit");
         dollItem("bonjour_tantei");
+        dollItem("bonjour_halloween");
+        dollItem("bonjour_ojosama");
 
         dollItem("qnly_normal");
+        dollItem("qnly_bonjour");
+        dollItem("qnly_guard");
+        dollItem("qnly_japan");
+        dollItem("qnly_ojosama");
+        dollItem("qnly_previous");
+        dollItem("qnly_rpg");
+        dollItem("qnly_santa");
+        dollItem("qnly_student");
+        dollItem("qnly_suit");
+
         dollItem("orafkun_normal");
+        dollItem("orafkun_japan");
+        dollItem("orafkun_ojosama");
+        dollItem("orafkun_orakochan");
+        dollItem("orafkun_orakohime");
+        dollItem("orafkun_oralish");
+        dollItem("orafkun_samurai");
+        dollItem("orafkun_student");
+        dollItem("orafkun_suit");
+        dollItem("orafkun_toy");
+
         dollItem("ooharamen_normal");
+        dollItem("ooharamen_deka");
+        dollItem("ooharamen_ojosama");
+        dollItem("ooharamen_old");
+        dollItem("ooharamen_piglin");
+        dollItem("ooharamen_previous");
+        dollItem("ooharamen_student");
+        dollItem("ooharamen_tnt");
+        dollItem("ooharamen_zuru");
+        dollItem("ooharamen_girl");
+
         dollItem("nekooji_normal");
+        dollItem("nekooji_deka");
+        dollItem("nekooji_doctor");
+        dollItem("nekooji_old");
+        dollItem("nekooji_rich");
+        dollItem("nekooji_suit");
+        dollItem("nekooji_tono");
 
     }
 
