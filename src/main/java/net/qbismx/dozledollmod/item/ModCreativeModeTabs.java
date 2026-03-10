@@ -126,6 +126,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.NEKOOJI_RICH_BLOCK);
                         output.accept(ModBlocks.NEKOOJI_SUIT_BLOCK);
                         output.accept(ModBlocks.NEKOOJI_TONO_BLOCK);
+                        output.accept(ModBlocks.NEKOOJI_BUG_BLOCK);
+                        output.accept(ModBlocks.NEKOOJI_KINTARO_BLOCK);
+                        output.accept(ModBlocks.NEKOOJI_WORKS_BLOCK);
                     })
                     .build());
 

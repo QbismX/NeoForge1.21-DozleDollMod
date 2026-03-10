@@ -1,4 +1,4 @@
-// 1.21	2026-03-07T06:59:45.9119894	Item Models: dozledollmod
+// 1.21	2026-03-11T05:02:09.1136984	Item Models: dozledollmod
 86ca08f6b298ec5ceb746c77fbc93bea53004d31 assets/dozledollmod/models/item/bonjour_halloween.json
 dd5dc4ccfa54596302e4c244d85f28e5ef0f4813 assets/dozledollmod/models/item/bonjour_hoiku.json
 05849695fae7e3ddd7a147d923d23389c0201ec6 assets/dozledollmod/models/item/bonjour_japan.json
@@ -19,13 +19,16 @@ a356110ff5c8f5845d1492e966d406c459b4f0b7 assets/dozledollmod/models/item/dozle_j
 2261117d60e4e7fb60076160bb7cfd47fe682684 assets/dozledollmod/models/item/dozle_student.json
 719ca7fb581712f6243e9f71915f0f3f2c92e69a assets/dozledollmod/models/item/dozle_suit.json
 d0e230576cd161620ae8f295a63281ec73bccc0a assets/dozledollmod/models/item/dozle_wild.json
+980459d1bcdaac431167eb09960fdb0d0677e878 assets/dozledollmod/models/item/nekooji_bug.json
 5cd641d357c887be4fe9c2be6f7246e9ddbd82f8 assets/dozledollmod/models/item/nekooji_deka.json
 2dc1b76910d6164180a80abacd799eebd02733ce assets/dozledollmod/models/item/nekooji_doctor.json
+5a95997ec986b168a804027ef737de11e32d47ea assets/dozledollmod/models/item/nekooji_kintaro.json
 ba9c7c3f96ad1ebe0a5af7d8e762bfec7dd06545 assets/dozledollmod/models/item/nekooji_normal.json
 9c72d44297a76612bf83f75877872df1e0dfaef1 assets/dozledollmod/models/item/nekooji_old.json
 6ead44d1390311b2a7dcb6a5812b78e73e4bdb95 assets/dozledollmod/models/item/nekooji_rich.json
 ea3d54d4cf32afad51155555f504bd79b3a7df88 assets/dozledollmod/models/item/nekooji_suit.json
 99bcd832f50292e3673fe2300d434c7de9dc46a0 assets/dozledollmod/models/item/nekooji_tono.json
+6d8e387cb1c8c8d556a40b983426010f75e056cc assets/dozledollmod/models/item/nekooji_works.json
 64d7d1d63ddfa7f34382acf374d8492274dc138c assets/dozledollmod/models/item/ooharamen_deka.json
 b17447b94e2091966e66c559edf8f4bfe483df42 assets/dozledollmod/models/item/ooharamen_girl.json
 89a22e16e183301ecef870750940dcb63d78ecab assets/dozledollmod/models/item/ooharamen_normal.json

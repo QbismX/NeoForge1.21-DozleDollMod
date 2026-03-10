@@ -12,7 +12,7 @@
   "block.dozledollmod.ooharamen_normal": "おおはらMEN (ノーマル)",
   "block.dozledollmod.nekooji_normal": "ねこおじ (ノーマル)",
   "block.dozledollmod.dozle_cold": "ドズル (凍)",
-  "block.dozledollmod.dozle_girl": "ドズル (ギャル)",
+  "block.dozledollmod.dozle_girl": "ドズル (女子学生)",
   "block.dozledollmod.dozle_gorilla": "ドズル (ゴリラ)",
   "block.dozledollmod.dozle_kami": "ドズル (神)",
   "block.dozledollmod.dozle_muscle": "ドズル (筋肉)",
@@ -61,5 +61,8 @@
   "block.dozledollmod.nekooji_old": "ねこおじ (ねこおじいちゃん)",
   "block.dozledollmod.nekooji_rich": "ねこおじ (大富豪おじいちゃん)",
   "block.dozledollmod.nekooji_suit": "ねこおじ (スーツ)",
-  "block.dozledollmod.nekooji_tono": "ねこおじ (殿)"
+  "block.dozledollmod.nekooji_tono": "ねこおじ (殿)",
+  "block.dozledollmod.nekooji_bug": "ねこおじ (バグ)",
+  "block.dozledollmod.nekooji_kintaro": "ねこおじ (金太郎)",
+  "block.dozledollmod.nekooji_works": "ねこおじ (ワークス)"
 }

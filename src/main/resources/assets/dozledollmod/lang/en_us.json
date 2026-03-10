@@ -12,7 +12,7 @@
   "block.dozledollmod.ooharamen_normal": "Oohara MEN (Normal)",
   "block.dozledollmod.nekooji_normal": "Neko-Oji (Normal)",
   "block.dozledollmod.dozle_cold": "Dozle (Cold)",
-  "block.dozledollmod.dozle_girl": "Dozle (Girl)",
+  "block.dozledollmod.dozle_girl": "Dozle (Schoolgirl)",
   "block.dozledollmod.dozle_gorilla": "Dozle (Gorilla)",
   "block.dozledollmod.dozle_kami": "Dozle　(God)",
   "block.dozledollmod.dozle_muscle": "Dozle (Muscle)",
@@ -61,5 +61,8 @@
   "block.dozledollmod.nekooji_old": "Neko-Oji (Grandpa)",
   "block.dozledollmod.nekooji_rich": "Neko-Oji (Rich Grandpa)",
   "block.dozledollmod.nekooji_suit": "Neko-Oji (Suit)",
-  "block.dozledollmod.nekooji_tono": "Neko-Oji (Lord)"
+  "block.dozledollmod.nekooji_tono": "Neko-Oji (Lord)",
+  "block.dozledollmod.nekooji_bug": "Neko-Oji (Bug)",
+  "block.dozledollmod.nekooji_kintaro": "Neko-Oji (Kintaro)",
+  "block.dozledollmod.nekooji_works": "Neko-Oji (Works)"
 }

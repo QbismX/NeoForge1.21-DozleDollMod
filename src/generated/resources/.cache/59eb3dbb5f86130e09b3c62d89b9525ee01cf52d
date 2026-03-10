@@ -1,4 +1,4 @@
-// 1.21	2026-03-07T06:59:42.2221839	Loot Tables
+// 1.21	2026-03-11T05:02:09.0656331	Loot Tables
 c3101123dabab6ed766507177c2e91d11f85b493 data/dozledollmod/loot_table/blocks/bonjour_halloween.json
 efb1eb233fa5e96bcc2b6e0d6bad3e6491a1b3f2 data/dozledollmod/loot_table/blocks/bonjour_hoiku.json
 e7869850e921081d878a5d9976667b7f25790366 data/dozledollmod/loot_table/blocks/bonjour_japan.json
@@ -20,13 +20,16 @@ d14fd3cd4274ce62c9c4fd04115b9a83dee28ede data/dozledollmod/loot_table/blocks/doz
 e024b3a99adfaa8be352ef1709671fc3f1e23150 data/dozledollmod/loot_table/blocks/dozle_student.json
 a66e77eb059d53028757827aab0306d130c06654 data/dozledollmod/loot_table/blocks/dozle_suit.json
 972a042563fdd9b8516273ffe6b4fa9250b4f68d data/dozledollmod/loot_table/blocks/dozle_wild.json
+920fade81a8b67b82535e9f8825092558e2b234d data/dozledollmod/loot_table/blocks/nekooji_bug.json
 80d0459cc230b94f06b6fbbbf6e9f777a3fd7ea4 data/dozledollmod/loot_table/blocks/nekooji_deka.json
 a00ec26b06d392937658e7795846c459e4666f00 data/dozledollmod/loot_table/blocks/nekooji_doctor.json
+20d0e6bb7dfe9f8709b1320489b48052ed492a4d data/dozledollmod/loot_table/blocks/nekooji_kintaro.json
 f06196d2ca1b344441e4e4694874f7f0f7cea749 data/dozledollmod/loot_table/blocks/nekooji_normal.json
 a319cca5ad27d55aef897f206430444944b0d421 data/dozledollmod/loot_table/blocks/nekooji_old.json
 8be7c6718399d17b1b1999d2fb46999d99472ded data/dozledollmod/loot_table/blocks/nekooji_rich.json
 29e92227ad4befde5bb46173cb24886936b7f588 data/dozledollmod/loot_table/blocks/nekooji_suit.json
 d0278ad7df2e8fc50c4cf6ce77e6f23f19d2c618 data/dozledollmod/loot_table/blocks/nekooji_tono.json
+6b746c35e1bec5cbde2ecb8e183eb6e346e1df7b data/dozledollmod/loot_table/blocks/nekooji_works.json
 f8f57d0ef34b01cfd514b90b9f92dcbfa907f5f8 data/dozledollmod/loot_table/blocks/ooharamen_deka.json
 a8dab139dd41d04eec0e33e54641696b360ad750 data/dozledollmod/loot_table/blocks/ooharamen_girl.json
 e9f3950b3ade01e0177d08936c1ba3fbbd2c6885 data/dozledollmod/loot_table/blocks/ooharamen_normal.json

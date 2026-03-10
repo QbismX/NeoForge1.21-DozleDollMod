@@ -76,6 +76,9 @@ public class DollItemModelProvider extends ItemModelProvider {
         dollItem("nekooji_rich");
         dollItem("nekooji_suit");
         dollItem("nekooji_tono");
+        dollItem("nekooji_bug");
+        dollItem("nekooji_kintaro");
+        dollItem("nekooji_works");
 
     }
 

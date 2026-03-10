@@ -160,6 +160,12 @@ public class ModBlocks {
             ()-> new DollMainBlock(ModBlocks.PROPERTIES));
     public static final DeferredBlock<DollMainBlock> NEKOOJI_TONO_BLOCK = ModBlocks.registerBlock("nekooji_tono",
             ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+    public static final DeferredBlock<DollMainBlock> NEKOOJI_BUG_BLOCK = ModBlocks.registerBlock("nekooji_bug",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+    public static final DeferredBlock<DollMainBlock> NEKOOJI_KINTARO_BLOCK = ModBlocks.registerBlock("nekooji_kintaro",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
+    public static final DeferredBlock<DollMainBlock> NEKOOJI_WORKS_BLOCK = ModBlocks.registerBlock("nekooji_works",
+            ()-> new DollMainBlock(ModBlocks.PROPERTIES));
 
 
 

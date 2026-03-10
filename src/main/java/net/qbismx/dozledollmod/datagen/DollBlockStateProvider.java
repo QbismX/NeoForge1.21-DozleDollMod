@@ -91,6 +91,9 @@ public class DollBlockStateProvider extends BlockStateProvider {
         ModelFile nekooji_rich = models().withExistingParent("nekooji_rich", basis).texture("skin", modLoc("block/nekooji/nekooji_rich"));
         ModelFile nekooji_suit = models().withExistingParent("nekooji_suit", basis).texture("skin", modLoc("block/nekooji/nekooji_suit"));
         ModelFile nekooji_tono = models().withExistingParent("nekooji_tono", basis).texture("skin", modLoc("block/nekooji/nekooji_tono"));
+        ModelFile nekooji_bug = models().withExistingParent("nekooji_bug", basis).texture("skin", modLoc("block/nekooji/nekooji_bug"));
+        ModelFile nekooji_kintaro = models().withExistingParent("nekooji_kintaro", basis).texture("skin", modLoc("block/nekooji/nekooji_kintaro"));
+        ModelFile nekooji_works = models().withExistingParent("nekooji_works", basis).texture("skin", modLoc("block/nekooji/nekooji_works"));
 
 
         // ここから先はBlockstates生成 ===========================================================================
@@ -163,6 +166,9 @@ public class DollBlockStateProvider extends BlockStateProvider {
         generateBlockstate(ModBlocks.NEKOOJI_RICH_BLOCK.get(), nekooji_rich);
         generateBlockstate(ModBlocks.NEKOOJI_SUIT_BLOCK.get(), nekooji_suit);
         generateBlockstate(ModBlocks.NEKOOJI_TONO_BLOCK.get(), nekooji_tono);
+        generateBlockstate(ModBlocks.NEKOOJI_BUG_BLOCK.get(), nekooji_bug);
+        generateBlockstate(ModBlocks.NEKOOJI_KINTARO_BLOCK.get(), nekooji_kintaro);
+        generateBlockstate(ModBlocks.NEKOOJI_WORKS_BLOCK.get(), nekooji_works);
 
     }
 
