@@ -1,0 +1,14 @@
+{
+  "type": "dozledollmod:add_item",
+  "conditions": [
+    {
+      "block": "minecraft:raw_iron_block",
+      "condition": "minecraft:block_state_property"
+    },
+    {
+      "chance": 1.0,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "dozledollmod:bonjour_normal"
+}

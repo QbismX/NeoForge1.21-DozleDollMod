@@ -2,13 +2,13 @@
   "type": "dozledollmod:add_item",
   "conditions": [
     {
-      "block": "minecraft:dried_kelp_block",
-      "condition": "minecraft:block_state_property"
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:chests/bastion_hoglin_stable"
     },
     {
       "chance": 1.0,
       "condition": "minecraft:random_chance"
     }
   ],
-  "item": "dozledollmod:bonjour_normal"
+  "item": "dozledollmod:ooharamen_deka"
 }

@@ -1,11 +1,33 @@
 {
   "entries": [
     "dozledollmod:orafkun_normal_from_snow_golem",
-    "dozledollmod:nekooji_normal_from_village_house",
+    "dozledollmod:ooharamen_from_bastion_other",
+    "dozledollmod:nekooji_from_village_savanna",
+    "dozledollmod:bonjour_normal_from_raw_iron_block",
     "dozledollmod:ooharamen_normal_from_pig",
+    "dozledollmod:nekooji_from_village_snowy",
+    "dozledollmod:ooharamen_from_bastion_hoglin_stable",
+    "dozledollmod:ooharamen_previous_from_piglin_brute",
+    "dozledollmod:bonjour_hoiku_from_dried_kelp_block",
+    "dozledollmod:qnly_normal_from_iron_golem",
+    "dozledollmod:ooharamen_piglin_from_piglin",
+    "dozledollmod:ooharamen_from_bastion_treasure",
+    "dozledollmod:ooharamen_tnt_from_tnt",
     "dozledollmod:dozle_normal_from_crafter",
-    "dozledollmod:bonjour_normal_from_crafter",
-    "dozledollmod:qnly_normal_from_iron_golem"
+    "dozledollmod:qnly_from_hoglin",
+    "dozledollmod:qnly_bonjour_from_zombie",
+    "dozledollmod:qnly_from_wither_skeleton",
+    "dozledollmod:qnly_from_silverfish",
+    "dozledollmod:nekooji_from_village_taiga",
+    "dozledollmod:nekooji_from_village_desert",
+    "dozledollmod:ooharamen_student_from_creeper",
+    "dozledollmod:nekooji_from_village_chests",
+    "dozledollmod:qnly_from_ender_dragon",
+    "dozledollmod:qnly_from_nether_bridge",
+    "dozledollmod:qnly_from_enderman",
+    "dozledollmod:ooharamen_ojosama_from_zombified_piglin",
+    "dozledollmod:qnly_from_spider",
+    "dozledollmod:qnly_from_blaze"
   ],
   "replace": false
 }
